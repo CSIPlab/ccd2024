@@ -59,7 +59,7 @@ h3 {
 .announcement-banner {
     /*background-color: #f0f0f0;*/ /* Updated to light gray color */
     /*color: #000;*/
-    background-color: lightgray; 
+    background-color: lightgray;
     color: red;
     padding: 10px;
     text-align: center;
@@ -110,7 +110,7 @@ h3 {
 }
 
 .nav-container {
-    max-width: 1000px;
+    max-width: 1280px;
     margin: auto;
     padding: 10px;
     display: flex;
@@ -138,7 +138,7 @@ h3 {
     margin: auto;
     padding: 40px 0;
     color: white;
-    background-image: url("assets/teaser.jpg");
+    background-image: url("Lens_LargerCrop.png");
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -208,4 +208,20 @@ th {
     padding: 5px 10%;
     text-align: right;
     color: white;
+}
+
+.nav .nav-container a.eye-catching-link {
+    color: #990000; /* Eye-catching color (red in this example) */
+    /* text-decoration: none; /* Remove underline */ */
+    font-weight: bold; /* Make the text bold */
+    animation: moveText 1s infinite alternate; /* Add animation */
+}
+
+@keyframes moveText {
+    from {
+        transform: translateY(-2px); /* Move text up */
+    }
+    to {
+        transform: translateY(2px); /* Move text down */
+    }
 }
