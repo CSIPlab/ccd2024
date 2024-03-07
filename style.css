@@ -211,7 +211,7 @@ th {
 }
 
 .nav .nav-container a.eye-catching-link {
-    color: #990000; /* Eye-catching color (red in this example) */
+    color: rgb(117, 50, 29); /* Eye-catching color (red in this example) */
     /* text-decoration: none; /* Remove underline */ */
     font-weight: bold; /* Make the text bold */
     animation: moveText 1s infinite alternate; /* Add animation */
